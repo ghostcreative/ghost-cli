@@ -1,0 +1,29 @@
+{
+  "name": "ghost-cli",
+  "version": "0.0.0",
+  "description": "A command line interface to build, deploy, migrate, and scaffold ghost creative applications",
+  "private": true,
+  "bin": {
+    "ghost-cli": "./bin/ghost-cli"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Nick Gerner",
+    "email": "hello@njgerner.com",
+    "url": "https://github.com/njgerner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghsotcreative/ghost-cli"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/ghsotcreative/ghost-cli/issues",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "autocmdr": "~0.0.7"
+  },
+  "devDependencies": {
+  }
+}
